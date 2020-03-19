@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veranstaltungen</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.js"></script>
+</head>
+<body>
+  <!--Header-->
+  <header class="header">
+    <a href="index.html" class="nav__logo">
+      <img src="img/logo-m.svg" alt="Buntstift Logo" class="nav__logo">
+    </a>
+    <nav class="haupt-nav nav-element__desktop">
+      <a href="index.html" class="nav__link">Start</a>
+      <a href="index.html#index__uu" class="nav__link">Über Uns</a>
+      <a href="veranstaltungen.html" class="nav__link current">Veranstaltungen</a>
+      <a href="kontakt.html" class="nav__link">Kontakt</a>
+    </nav>
+    <img src="img/Hamburger.svg" alt="Hamburger Menu" class="nav__hamburger">  
+  </header>
+  <nav id="mobile-nav">
+    <a href="index.html" class="nav__link">Start</a>
+    <a href="index.html#index__uu" class="nav__link">Über Uns</a>
+    <a href="veranstaltungen.html" class="nav__link current">Veranstaltungen</a>
+    <a href="kontakt.html" class="nav__link">Kontakt</a>
+  </nav>
+
+  <main id="v__wrap">
+
+    <!--Text-->
+    <div id="v__caption">
+      <h1>Schau mal vorbei...</h1>
+      <p>Unser Gemeinschaftshaus ist ein Ort, den wir sowohl für unsere internen Besprechungen, für Ausstellungen, Feste oder Konzerte nutzen.</p>
+      <p>Gegen eine kleine Gebühr stellen wir die Räume auch für externe Veranstaltungen zur Verfügung.</p>
+    </div>
+
+    <!--Kalender-->
+    <div id="v__termine-wrap">
+      <div id="v__termine__title">
+        <img src="img/arrow-back-grey.svg" alt="Pfahl Zurück" class="slider__icon" id="termine__back">
+        <h2>Kommende Termine</h2>
+        <img src="img/arrow-forward-grey.svg" alt="Pfahl Vor" class="slider__icon" id="termine__forward">
+      </div>
+      <div id="v__termine">
+        <div id="t1" class="v__termin"></div>
+        <div class="modal" id="t__modal1">
+          <span class="modal__close">x</span>
+        </div>
+        <div id="t2" class="v__termin"></div>
+        <div class="modal" id="t__modal2">
+          <span class="modal__close">x</span>
+        </div>
+        <div id="t3" class="v__termin"></div>
+        <div class="modal" id="t__modal3">
+          <span class="modal__close">x</span>
+        </div>
+        <div id="t4" class="v__termin"></div>
+        <div class="modal" id="t__modal4">
+          <span class="modal__close">x</span>
+        </div>
+        <div id="t5" class="v__termin"></div>
+        <div class="modal" id="t__modal5">
+          <span class="modal__close">x</span>
+        </div>
+        <div id="t6" class="v__termin"></div>
+        <div class="modal" id="t__modal6">
+          <span class="modal__close">x</span>
+        </div>      
+      </div>
+    </div>
+  </main>
+
+  <!--Footer-->
+  <footer class="footer">
+    <a href="impressum.html" class="footer__link">Impressum</a>
+    <p> | </p>
+    <a href="datenschutz.html" class="footer__link">Datenschutz</a>
+    <p> | </p>
+    <a href="kontakt.html" class="footer__link">Kontakt</a>
+  </footer>
+<script src="js/main.js"></script>
+<script src="js/termine.js"></script>
+</body>
+</html>

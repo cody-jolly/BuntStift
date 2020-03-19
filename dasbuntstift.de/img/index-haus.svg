@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 441 401.9" style="enable-background:new 0 0 441 401.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#464646;}
+	.st2{fill:#464646;stroke:#464646;stroke-width:4.349;stroke-miterlimit:10;}
+	.st3{fill:none;}
+	.st4{opacity:0.253;fill:url(#Ellipse_51_1_);enable-background:new    ;}
+</style>
+<g id="Group_167" transform="translate(-419.033 -189.132)">
+	<g id="Group_1" transform="translate(0 -19)">
+		<g id="Group_60">
+			<g id="logo-haus" transform="translate(-2073.694 -657.455)">
+				<g id="Group_45" transform="translate(2624.93 954.342)">
+					<path id="Path_1" class="st0" d="M14.1,114.2L10,3.3h152l-3.3,110L164,225H85.9l-82.2,4.1L14.1,114.2z"/>
+					<path id="Path_2" class="st1" d="M158.5,6.5l-3,106.5v0.4l5.2,108.3H85.5l-78.3,3.9l10.2-111.1v-0.9L13.3,6.3h145.2 M165.3,0
+						H6.5l4.3,114.2L0,232.7l85.9-4.3h81.5l-5.4-115L165.3,0L165.3,0z"/>
+				</g>
+				<path id="Path_3" class="st2" d="M2620.6,958.7c27.6-30,70.7-55.4,92-89.4c30.9,38.3,59.1,55.7,90,89.8
+					C2741.9,959.1,2681.2,959,2620.6,958.7z"/>
+				<rect id="Rectangle_18" x="2492.7" y="1205.9" class="st3" width="441" height="61.5"/>
+			</g>
+		</g>
+	</g>
+	
+		<radialGradient id="Ellipse_51_1_" cx="-81.738" cy="26.5" r="0.484" gradientTransform="matrix(250 0 0 14 21074.5059 160.9996)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#000000"/>
+		<stop  offset="0.576" style="stop-color:#585858"/>
+		<stop  offset="1" style="stop-color:#EDEDED"/>
+	</radialGradient>
+	<ellipse id="Ellipse_51" class="st4" cx="640" cy="532" rx="125" ry="7"/>
+</g>
+</svg>

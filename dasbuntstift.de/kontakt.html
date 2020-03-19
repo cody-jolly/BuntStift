@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.js"></script>
+</head>
+<body>
+  <!--Header-->
+  <header class="header">
+    <a href="index.html" class="nav__logo">
+      <img src="img/logo-m.svg" alt="Buntstift Logo" class="nav__logo">
+    </a>
+    <nav class="haupt-nav nav-element__desktop">
+      <a href="index.html" class="nav__link">Start</a>
+      <a href="index.html#index__uu" class="nav__link">Über Uns</a>
+      <a href="veranstaltungen.html" class="nav__link">Veranstaltungen</a>
+      <a href="kontakt.html" class="nav__link current">Kontakt</a>
+    </nav>
+    <img src="img/Hamburger.svg" alt="Hamburger Menu" class="nav__hamburger">  
+  </header>
+  <nav id="mobile-nav">
+    <a href="index.html" class="nav__link">Start</a>
+    <a href="index.html#index__uu" class="nav__link">Über Uns</a>
+    <a href="veranstaltungen.html" class="nav__link">Veranstaltungen</a>
+    <a href="kontakt.html" class="nav__link current">Kontakt</a>
+  </nav>
+
+  <!--Kontakt-->
+  <main id="k__wrap">
+    
+    <!--Desktop Column1-->
+    <div id="k__side1" class="side-box">
+    </div>
+    
+    <!--Kontakt main wrapper-->
+    <div id="kontakt__main-wrap">
+      <div class="flower-background"></div>
+      <h1>Meld dich mal...</h1>
+      
+      <!--Kontakt Form-->
+      <form action="php/form-to-email.php" method="POST" id="kontakt__form" onsubmit="return vali()">
+        <input type="text" name="name" id="name" placeholder="Name">
+        <span class="warning" id="name-warning">Bitte deinen Namen eingeben!</span>
+        <input type="text" name="email" id="email" placeholder="Email">
+        <span class="warning" id="email-warning">Bitte deine Email-adresse eingeben!</span>
+        <textarea name="nachricht" id="nachricht" cols="30" rows="10" placeholder="Nachricht"></textarea>
+        <span class="warning" id="nachricht-warning">Bitte einen Nachricht eingeben(min. fünf Zeichen)!</span>
+        <div id="form__checkbox">
+          <label id="checkbox-wrap"><input type="checkbox" name="datenschutz-checkbox" id="datenschutz-checkbox"></label>
+          <label for="datenschutz-checkbox">Ich stimme die <a href="datenschutz.html" target="_blank" id="form__datenschutz-link">Datenschutzbedingungen</a> zu.</label>
+        </div>
+        <span class="warning" id="datenschutz-warning">Bitte die Datenschutzbedingungen überprufen!</span>
+        <input type="submit" value="Senden" id="submit" class="button">
+      </form>
+
+      <!--Kontakt Info-->
+      <section id="kontakt__info-wrap">
+        <h2>Oder melde dich direkt beim Ansprechspartner...</h2>
+        <div class="kontakt__info">
+          <h4>Wohn-Raum e G</h4>
+          <p>Stiftstr. 40</p>
+          <p>44892 Bochum-Langendreer</p>
+          <p>dasbuntstift@gmail.com</p>
+        </div>
+        <div class="kontakt__info">
+          <h4>Öffentlichkeitsarbeit</h4>
+          <p>Sinie Hammink</p>
+          <p>+49 234 95359960</p>
+          <p>s.hammink@t-online.de</p>
+        </div>
+        <div class="kontakt__info">
+          <h4>Besucherinformaiton</h4>
+          <p>Sabine Widmann</p>
+          <p>+49 234 9270577</p>
+          <p>s-widmann@gmx.de</p>
+        </div>
+      </section>
+
+      <!--Freier Wohnraum-->
+      <section id="freier-wohnraum">
+        <h2>Freier Wohnraum</h2>
+        <p>Die Fluktuation im Buntstift ist niedrig, daher werden selten Wohnungen frei. Die Möglichkeit uns kennenzulernen besteht jedoch trotzdem immer. Interessierte Bewerber können sich auf eine Warteliste setzen lassen und werden dann informiert, wenn passender Wohnraum frei wird. Bitte dazu den Kontaktformular benutzen.</p>
+      </section>
+    </div>
+
+    <!--Desktop Column2-->
+    <div id="k__side2" class="side-box">
+    </div>
+
+  </main>
+
+  <!--Footer-->
+  <footer class="footer">
+    <a href="impressum.html" class="footer__link">Impressum</a>
+    <p> | </p>
+    <a href="datenschutz.html" class="footer__link">Datenschutz</a>
+    <p> | </p>
+    <a href="kontakt.html" class="footer__link current">Kontakt</a>
+  </footer>
+<script src="js/main.js"></script>
+<script src="js/kontaktFormValidate.js"></script>
+</body>
+</html>
